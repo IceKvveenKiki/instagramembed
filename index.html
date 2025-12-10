@@ -38,28 +38,26 @@
         
         .social-buttons {
             display: flex;
-            gap: 16px;
+            gap: 20px;
             justify-content: center;
         }
         
         .social-button {
-            flex: 1;
+            width: 80px;
+            height: 80px;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 8px;
-            padding: 14px 20px;
-            border-radius: 8px;
+            border-radius: 12px;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 14px;
+            font-size: 36px;
             transition: transform 0.2s, box-shadow 0.2s;
             color: white;
         }
         
         .social-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.3);
         }
         
         .twitter-btn {
@@ -77,37 +75,3 @@
         .twitch-btn {
             background: #9146FF;
         }
-        
-        .twitch-btn:hover {
-            background: #7d3be0;
-        }
-        
-        .icon {
-            font-size: 20px;
-        }
-    </style>
-</head>
-<body>
-    <div class="social-card">
-        <h2 class="card-title">Connect With Me</h2>
-        <p class="card-subtitle">Follow me across all platforms</p>
-        
-        <div class="social-buttons">
-            <a href="https://x.com/YOUR_USERNAME" target="_blank" class="social-button twitter-btn">
-                <span class="icon">𝕏</span>
-                <span>X / Twitter</span>
-            </a>
-            
-            <a href="https://instagram.com/YOUR_USERNAME" target="_blank" class="social-button instagram-btn">
-                <span class="icon">📷</span>
-                <span>Instagram</span>
-            </a>
-            
-            <a href="https://twitch.tv/YOUR_USERNAME" target="_blank" class="social-button twitch-btn">
-                <span class="icon">▶</span>
-                <span>Twitch</span>
-            </a>
-        </div>
-    </div>
-</body>
-</html>
